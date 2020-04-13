@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#BDBDBD"
+    android:layout_height="match_parent"
+    tools:context=".Cardshow"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gotta Gutts??"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:fontFamily="cursive"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="#4E4E4E"
+
+        >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:gravity="center"
+           android:padding="15dp"
+           >
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/texttoshow"
+               android:text="Here appears the textjsdas !!"
+               android:textSize="20sp"
+               android:textColor="#fff"
+
+               />
+       </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button android:id="@+id/backbutton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyle"
+        android:text="BACK"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        />
+
+
+
+
+</LinearLayout>

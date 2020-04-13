@@ -1,3 +1,315 @@
 <resources>
-    <string name="app_name">Truthdare</string>
+    <string name="app_name">Truth and Dare</string>
+    <string-array name="truth">
+        <item>
+        When was the last time you told a lie?</item>
+
+        <item> What is your biggest fear?</item>
+
+        <item>Who do you have a crush on?</item>
+
+        <item>If you had to date someone in this room, who would it be?</item>
+
+        <item> Have you ever been cheated on someone</item>
+
+        <item>What was your first kiss like?</item>
+
+        <item> Who is the last person that you stalked on social media?</item>
+
+        <item>What is the craziest event that you have ever been to?</item>
+
+        <item>What is the worst dream that you have had?</item>
+
+        <item> Why did your last relationship end?</item>
+
+        <item>What is the most embarrassing thing that has happened to you this year?</item>
+
+        <item>What habit can’t you seem to quit?</item>
+
+        <item>Who is your celebrity crush?</item>
+
+        <item>What don’t you like about your boyfriend or girlfriend?
+    </item>
+        <item>Have you ever hooked up with the same sex?</item>
+
+        <item> What is a secret that you have never told anyone before?</item>
+
+        <item>How many people have you kissed?</item>
+
+        <item>How many people have you been with?</item>
+
+        <item>Has anyone ever accidentally seen you naked? Who?</item>
+
+        <item>Have you ever gone out without wearing a bra and underwear?</item>
+
+        <item>Who was your first crush?</item>
+
+        <item>Have you ever had a crush on your teacher/professor?</item>
+
+        <item>Have you ever had a crush on your best friend’s mom or someone generally much older that you?</item>
+
+        <item>If you were the opposite gender for the day? What do you think you would wear? What would you do?</item>
+
+        <item>If you and one person in this room could be the last people on Earth left alive, who would that person be?</item>
+
+        <item>Who in this room do you think would be the worst date?</item>
+
+        <item>Who in this room do you think would be the best date?</item>
+
+        <item>What is your secret talent if you have one?</item>
+
+        <item> What is the worst thing about being your gender?</item>
+
+        <item>If you were a superhero, what would your power be?</item>
+
+        <item>Have you ever performed a striptease for anyone before?</item>
+
+        <item>Have you ever eaten food from the floor?</item>
+
+        <item>What is the most trouble that you ever got into in school?</item>
+
+        <item>What is the most trouble that you ever got into at home / with your parents?</item>
+
+        <item>When was a time that someone really betrayed your trust?</item>
+
+        <item>Talk about a time that you failed in life.</item>
+
+        <item>Have you ever spread a rumor?</item>
+
+        <item>Do you sing in the shower?</item>
+
+        <item>When is the last time you threw up?</item>
+
+        <item>When is the last time you cried?</item>
+
+        <item>Have you ever cried from watching a TV show or a movie?</item>
+
+        <item>What is the most embarrassing thing that you have ever done in front of a crush?</item>
+
+        <item>What do you look for in a potential love interest?</item>
+
+        <item>Would you rather be rich or famous? You cannot be both.</item>
+
+        <item>Who is the most attractive person in the room?</item>
+
+        <item>Who is the most annoying person in the room?</item>
+
+        <item>Which person in the room do you think gossips the most?</item>
+
+        <item> What is your biggest insecurity?</item>
+
+        <item>What is a common misconception about you?</item>
+
+        <item>Where is the weirdest place that you have gone to the bathroom?</item>
+
+        <item>What is the most embarrassing thing that your parents have caught you doing?</item>
+
+        <item>What was the most disgusting thing to ever come out of your body?</item>
+
+        <item>What is the most disgusting thing that you have ever had in your mouth?</item>
+
+        <item> Have you ever wanted to have a one night stand?</item>
+
+        <item> Have you ever wanted to kill someone?</item>
+
+        <item> What is the worst thing that somebody ever said to you?</item>
+
+        <item> What is your biggest fantasy?</item>
+
+        <item> Have you ever gone to the bathroom in the pool?</item>
+
+        <item> Who in the group do you think is the wildest in bed?</item>
+
+        <item>For guys: have you ever worn lingerie?</item>
+
+        <item>What is your idea of good sex?</item>
+
+        <item>Do you masturbate?</item>
+
+        <item>How many times do you take care of yourself a week?</item>
+
+        <item> What is the most sex that you have had in a day?</item>
+
+        <item>What is the longest amount of time that you have gone without intercourse?</item>
+
+        <item>Have you ever received oral sex?</item>
+
+        <item>Would you ever swap partners with anyone?</item>
+
+        <item>Have you ever stolen money from your parents?</item>
+
+        <item>Have you ever taken nude photos or videos of yourself?</item>
+
+        <item>Could you live without watching “adult movies”?</item>
+
+        <item>Could you live without having sex for the rest of your life?</item>
+
+        <item>Have you ever stolen something for a store?</item>
+
+        <item>What is an unpopular opinion that you have?</item>
+
+        <item> If you weren’t here in this room right now, what would you probably be doing?</item>
+
+        <item>What kind of person would you want to marry one day?</item>
+
+        <item>What do you think happens after we die?</item>
+
+        <item>What is your favorite movie and why?</item>
+
+        <item>What is the silliest thing that you have ever done?</item>
+
+        <item>Who would play you in a movie about your life?</item>
+
+        <item>Name one thing on your bucket list.</item>
+
+        <item> If you could kiss one celebrity, who would it be?</item>
+
+        <item>If you could say anything to one person in your life without any consequences, what would it be?</item>
+
+        <item>If you could choose a way to die, what would it be?</item>
+
+        <item>How many romantic interests do you think you will have for the rest of your life?
+    </item>
+        <item>Was there ever a time in your life that you thought you were going to die?
+    </item>
+
+        <item>What is the most romantic thing that you have ever done?</item>
+
+        <item>What is the most romantic thing that has ever been done for you?</item>
+
+        <item>What is your most embarrassing puberty-related story?</item>
+        <item>Where did you used to think babies come from?</item>
+
+        <item>What is the coolest thing that you have ever done at a job?</item>
+
+        <item>What is one thing that you have always wanted to do but have not gotten around to it yet?</item>
+
+        <item>Have you ever let someone take the blame for something you did? What happened?</item>
+    </string-array>
+    <string-array name="dares">
+
+         <item> Pledge your undying love to the person directly infront of you for a minute.</item>
+
+        <item>Make an unflattering picture of yourself your Facebook profile picture for at least a day.</item>
+
+    <item> Let someone spoon-feed you with both of you blindfolded for 2 minutes. Make it something messy like yogurt, applesauce, etc.</item>
+
+     <item>Turn off your phone for the rest of the game.</item>
+
+     <item> Let someone in the room write whatever they want from your Facebook account.</item>
+
+     <item>Slap the person on the left.</item>
+     <item>Spank the person on your right.</item>
+
+     <item>Pick up a random book and read it in the most seductive voice you can manage.</item>
+
+     <item>Change your Facebook status to “I’m coming . . . I’m coming . . ." Then, one minute later, change it to "I just came.”</item>
+
+     <item>You’re in school, and you’ve been a bad student. For the next round, you’re in time out on someone’s lap.</item>
+
+     <item>With your eyes closed and the other person or people standing across from you, walk with your hands out. You have to kiss the first person you touch, where you touch them.</item>
+
+     <item>Someone gives you a back massage for one minute while you’re blindfolded. If you like their style, you can choose to kiss them afterward, but without knowing their identity.</item>
+
+     <item>You have to keep your hand on the waist of the opposite gender whoever first to you clockwise for the next round.
+         Do your best sexy crawl.</item>
+
+
+         <item> Smell the foot of the person on your left.</item>
+
+     <item> Use a pickup line on the person on your right.</item>
+
+     <item>Wear someone else’s shoes as mittens for the next 10 minutes.</item>
+
+     <item> Do the robot</item>
+
+     <item>Say something very dirty to the person on your left.</item>
+
+     <item>Speak in an accent for the rest of the game (examples of accents include British, Southern American, Caribbean, German, and Italian.)</item>
+
+     <item> Carry the person next to you across the room.</item>
+
+    <item> Lick the side of someone’s face.</item>
+
+     <item> Try to put your foot behind your head.</item>
+
+     <item> Pretend to spin an imaginary ring around your waist for the next 2 minutes.</item>
+
+    <item> Send a love letter to someone on Facebook.</item>
+
+    <item> Lay on the floor and pretend that you are swimming for two minutes.</item>
+
+     <item>Speak in rhymes for the rest of the game.</item>
+
+     <item>Instead of speaking, you have to sing everything that you want to say for the rest of the game.</item>
+
+     <item>Blow a raspberry on the stomach of the person to your right.</item>
+
+     <item> Prank call the number of someone that you do not know.</item>
+
+     <item> Give an insult to every person in the room.</item>
+
+    <item>Do the moonwalk across the room.</item>
+
+     <item> Go outside and try to hug the next person that walks by.</item>
+
+  <item>Go outside and sing Twinkle, Twinkle Little Star loudly.</item>
+
+   <item>Strip down to show underwear and be in that outfit.</item>
+
+  <item> Sit on someone’s lap for 10 minutes.</item>
+
+   <item>Slow dance with the person on your left for the duration of one song.</item>
+
+     <item>Give a kiss to person right to you in the room. A peck on the lips is okay.</item>
+ <item>Do a belly dance for one minute for everyone in the room.</item>
+
+     <item>Give a foot massage to the person on your left.</item>
+
+    <item> pretend that you are an airplane for 1 minutes.</item>
+
+    <item>Take a coin out of your wallet and lick it.</item>
+
+  <item> Touch your friends nose with your tongue only.</item>
+
+    <item>Prank call someone and pretend she/he is your girlfriend/boyfriend and propose to him/her.</item>
+
+    <item> Kiss the person in the room who is the same gender.</item>
+
+    <item>Cry loudly in front of everyone.</item>
+
+   <item>Show your whole browsing history to the players in the room.</item>
+
+   <item>Disclose your girlfriend’s/boyfriend’s name online.</item>
+
+  <item>Call your best friend and make him/her believe that you are a gay.</item>
+
+     <item> Say “I love you” for 50 times.</item>
+
+     <item> Call your best friend make her believe that you hate her.</item>
+
+    <item>Propose to the person on your left.</item>
+
+   <item>Call your mom and cry on the phone telling anything.</item>
+
+   <item> Pretend that you are an enemy with the person on your right.</item>
+
+   <item> Do a seductive dance in front of everyone.</item>
+
+   <item> Use a poetry form of talking for the rest of the game.</item>
+
+    <item>Call your dad and tell him that you are going to any place outside town.</item>
+
+     <item>Prank call someone and tell them that you are horny.</item>
+
+    <item> Be rude to your girlfriend/boyfriend for a day.</item>
+
+    <item> Go outside and propose to the first person who passes by.</item>
+
+   <item>Behave like a lesbian for the rest of the game.</item>
+
+        <item>Remove any of your 4 articles of clothing.</item>
+
+    </string-array>
+
 </resources>

@@ -1,8 +1,12 @@
 package com.example.truthdare;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -58,8 +62,40 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onAnimationEnd(Animation animation) {
-                Toast.makeText(getApplicationContext(),"NOW PRESS Again.",Toast.LENGTH_SHORT).show();
-                button.setEnabled(true);
+
+               new Handler().postDelayed(new Runnable() {
+                   @Override
+                   public void run() {
+                       AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                       builder.setTitle("Hey there bait !!");
+                       builder.setMessage("Please choose between Truth and Dare  ");
+                       builder.setPositiveButton("TRUTH", new DialogInterface.OnClickListener() {
+                           @Override
+                           public void onClick(DialogInterface dialog, int which) {
+                               button.setEnabled(true);
+                               Intent intent = new Intent(MainActivity.this,Cardshow.class);
+                               intent.putExtra("decide","truth");
+                               startActivity(intent);
+
+                               overridePendingTransition(R.anim.fadein, R.anim.fadeout);
+                           }
+                       });
+                       builder.setNegativeButton("DARE", new DialogInterface.OnClickListener() {
+                           @Override
+                           public void onClick(DialogInterface dialog, int which) {
+                               button.setEnabled(true);
+                               Intent intent = new Intent(MainActivity.this,Cardshow.class);
+                               intent.putExtra("decide","dare");
+                               startActivity(intent);
+
+                               overridePendingTransition(R.anim.fadein, R.anim.fadeout);
+                           }
+                       });
+                       builder.setCancelable(false);
+                       AlertDialog dialog = builder.create();
+                       dialog.show();
+                   }
+               },700);
 
             }
 
